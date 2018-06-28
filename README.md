@@ -1,7 +1,8 @@
 # GestureOverlayViewDemo1
 用于学习GestureOverlayView的一个简单demo,用来绘制手写签名
 主要核心代码
-   //设置手势可多笔画绘制，默认情况为单笔画绘制
+   	
+	//设置手势可多笔画绘制，默认情况为单笔画绘制
     mGestureOverlayView.setGestureStrokeTy(GestureOverlayView.GESTURE_STROKE_TYPE_MULTIPLE);
     //设置手势长形识别精度
     mGestureOverlayView.setGestureStrokeLengthThreshold(0.01f);
@@ -22,3 +23,7 @@
      * 默认值为420毫秒，这里设置为2秒
      */
     mGestureOverlayView.setFadeOffset(Integer.MAX_VALUE);
+	//设置手势可多笔画绘制，默认情况为单笔画绘制
+
+
+详情请查看demo
